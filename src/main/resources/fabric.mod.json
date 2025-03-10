@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "lavarising",
+  "version": "${version}",
+  "name": "LavaRising",
+  "description": "Serverside lava rising mod",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/lavarising/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "net.idothehax.lavarising.Lavarising"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
